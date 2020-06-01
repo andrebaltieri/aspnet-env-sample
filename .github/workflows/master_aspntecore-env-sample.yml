@@ -31,5 +31,5 @@ jobs:
       with:
         app-name: 'aspntecore-env-sample'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_210ae824ea4f4745a4d9027c96dfe06d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_abf41842fca34347b84c0c33d646abd5 }}
         package: ${{env.DOTNET_ROOT}}/myapp 
